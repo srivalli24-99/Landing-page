@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(48, 176, 170);
+    font-family: sans-serif;
+}
+
+.main{
+    background-color: #fff;
+    height: 85vh;
+    width: 90vw;
+    margin-left: 70px;
+    margin-top: 51px;
+}
+
+.curved-sec{
+    width: 30%;
+    min-height: 591px;
+    background-color:rgb(201, 234, 248);
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    overflow: hidden;
+    position: relative;
+}    
+
+.circle{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    position: absolute;
+    
+}
+
+.large{
+    width: 195px;
+    min-height: 195px;
+}
+
+
+.large1{
+    width: 140px;
+    min-height: 140px;
+}
+
+.medium{
+    width: 80px;
+    height: 80px;
+}
+
+.medium2{
+    width: 80px;
+    height: 80px;
+}
+
+.small{
+    width: 58px;
+    height: 58px;
+}
+
+.top-left{
+    left: -43px;
+    top: 75px;
+}
+
+.top-right{
+    left: 148px;
+    top: 30px;
+}
+
+.bottom-right{
+    left: 180px;
+    top: 195px;
+}
+
+.bottom-right1{
+    left: 300px;
+    top: 196px;
+}
+
+.bottom-right2{
+    left: 305px;
+    top: 90px;
+}
+
+.content{
+    position: relative;
+    z-index: 1000;
+    
+}
+
+.content h4{
+    color: midnightblue;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 45px;
+    padding: 10px;
+}
+
+.des{
+    color: midnightblue;
+    font-size: 45px;
+    font-weight: 800;
+    margin-left: 71px;
+    font-family: "Lato", sans-serif;
+    margin-top: 45px;
+    line-height: 50px;
+}
+
+.content h3{
+    color: rgb(22, 189, 181);
+    margin-left: 71px;
+    margin-top: 11px;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.content p{
+    color: rgb(22, 189, 181);
+    width: 270px;
+    margin-top: 56px;
+    margin-left: 71px;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+}
+
+button{
+    background-color: rgb(22, 189, 181);
+    color: #fff;
+    margin-left: 70px;
+    width: 120px;
+    height: 27px;
+    border: none;
+    border-radius: 50px;
+    padding-top: 2px;
+}
+
+.content .icons{
+    margin-top: 80px;
+    margin-left: 71px;
+    font-size: 20px;
+}
+
+.icons i{
+    margin-right: 12px;
+}
+
+.right{
+
+}
+
+.navlinks {
+    position:absolute;
+    top: 75px;
+    display: flex;
+    right: 180px;
+}
+
+.navlinks a{
+    margin-right:100px;  
+    text-decoration: none; 
+    color: rgb(22, 189, 181); 
+}
+
+.btn{
+    color: midnightblue;
+    width: 118px;
+    height: 22px;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+}
+
+img {
+    position: absolute;
+    bottom: 0;
+    margin-left: 340px;
+    margin-bottom: 100px;
+    width: 930px;
+    height: 450px;
+    object-fit: cover;
+}
